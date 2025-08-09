@@ -1,0 +1,134 @@
+.homepage {
+  padding: 40px 20px;
+  background: linear-gradient(to bottom, #f0f7ff, #ffffff);
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.top-section h2 {
+  color: #2c3e50;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin: 0 auto 40px;
+  max-width: 600px;
+}
+
+.search-bar input {
+  flex: 1;
+  padding: 14px 20px;
+  font-size: 16px;
+  border-radius: 30px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.search-bar button {
+  background: #4e5cf7;
+  color: white;
+  padding: 14px 24px;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.search-bar button:hover {
+  background: #3542c9;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.card {
+  background: white;
+  border-radius: 20px;
+  padding: 30px 25px;
+  width: 320px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+}
+
+.icon-container {
+  font-size: 30px;
+  padding: 15px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.icon-container.blue {
+  background-color: #e6ecff;
+  color: #3b4cca;
+}
+
+.icon-container.green {
+  background-color: #e6ffe6;
+  color: #2e8b57;
+}
+
+.card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  color: #555;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+.card ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 0 20px;
+  color: #666;
+  font-size: 14px;
+}
+
+.card ul li {
+  margin: 5px 0;
+}
+
+.btn {
+  padding: 12px 20px;
+  font-size: 15px;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+
+.blue-btn {
+  background-color: #4e5cf7;
+}
+
+.blue-btn:hover {
+  background-color: #3d4bd1;
+}
+
+.green-btn {
+  background-color: #2ecc71;
+}
+
+.green-btn:hover {
+  background-color: #27ae60;
+}
