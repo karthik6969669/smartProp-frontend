@@ -7,7 +7,7 @@ import PredictHouse from './pages/PredictHouse';
 import PredictLand from './pages/PredictLand';   
 import ForgotPassword from './pages/ForgotPassword';
 import ResetPassword from './pages/ResetPassword';
-import VerifyEmail from "./VerifyEmail";
+import VerifyEmail from './pages/VerifyEmail';
 
 function App() {
   return (
